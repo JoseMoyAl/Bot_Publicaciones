@@ -1,0 +1,23 @@
+{
+  "name": "social-post-bot",
+  "version": "1.0.0",
+  "description": "Bot de linea de comandos para publicar, programar y repetir posts en Bluesky",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "verificar-bluesky": "node scripts/verificar-bluesky.js",
+    "verificar-x": "node scripts/verificar-x.js"
+  },
+  "keywords": [],
+  "author": "José Moises Alvarez Salazar",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "private": true,
+  "engines": {
+    "node": ">=20.12"
+  },
+  "dependencies": {
+    "luxon": "^3.7.2",
+    "sharp": "^0.35.5"
+  }
+}
