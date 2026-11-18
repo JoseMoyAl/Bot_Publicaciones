@@ -1,4 +1,4 @@
-# Social Post Bot
+# Bot de publicaicones
 
 Bot de línea de comandos en Node.js para publicar, programar y repetir publicaciones en **Bluesky**, con soporte de imágenes, validación de contenido, historial y estadísticas. La arquitectura permite agregar otras redes sociales sin modificar el resto del código.
 
